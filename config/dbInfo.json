@@ -1,0 +1,7 @@
+{
+    "host" : "ec2-13-58-175-253.us-east-2.compute.amazonaws.com",
+    "user" : "book",
+    "password" : "1q2w3e4r",
+    "database" : "Book",
+    "port" : 3306
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./assets/css/signup.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title> Bulblibrary Signup </title>
+</head>
+
+<body>	
+	<div class="container">
+		<div class="row">			
+			<div class="col-lg-6 col-lg-offset-3">		
+				<h1> Bulblibrary Signup</h1>		
+				<form id="signup-form" method="POST" action="/auth/signup">
+					<div class="form-group">
+						<label><text>Email</text></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+					</div>
+					<div class="form-group">
+						<label><text>Username</text></label>
+						<input type="text" placeholder="Enter Username" name="username" required>
+					</div>					
+					<div class="form-group">
+						<label><text>Password</text></label>
+						<input type="password" placeholder="Enter Password" name="password" required>
+					</div>
+					</br>
+
+					<div class="row">
+						<div class="form-group col-lg-6">
+							<button class="btn btn-primary btn-lg btn-block" id="submit-btn"> Submit </button>									
+						</div>
+						<div class="form-group col-lg-6">
+							<a href="/login" class="btn btn-primary btn-lg btn-block"> Login </a>													
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-lg-12">
+							<a href="/" class="btn btn-primary btn-lg btn-block"> Back </a>													
+						</div>
+					</div>
+				</form>				
+			</div>
+		</div>		
+ 	</div>
+</body>
+</html>
